@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i = 1,x,num,cont = 1;
+    int i = 1,x = 1,num,cont = 1;
 
     printf("Digite um número maior ou igual a 3 :");
     scanf(" %d", &num);
@@ -12,7 +12,6 @@ int main()
     }else{
         
     printf("%d \n",i);
-    x = i + i;
         for(num = num;cont < num;cont++){
             printf("%d \n",x);
             x = x + i;
